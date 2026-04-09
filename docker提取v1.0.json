@@ -30,6 +30,13 @@
             "type": "SSH命令",
             "module": "linux",
             "category": ""
+        },
+        {
+            "name": "镜像加速信息",
+            "cmd": "cat /etc/docker/daemon.json",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
         }
     ]
 }
