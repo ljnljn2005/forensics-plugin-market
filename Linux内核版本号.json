@@ -1,0 +1,14 @@
+{
+    "name": "Linux内核版本号",
+    "author": "ljnljn",
+    "description": "FIC DLC",
+    "blocks": [
+        {
+            "name": "系统 Linux 内核版本号",
+            "cmd": "data\\misc\\recovery\\proc\\version",
+            "type": "文件提取",
+            "module": "android",
+            "category": ""
+        }
+    ]
+}
