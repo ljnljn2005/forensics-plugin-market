@@ -1,0 +1,35 @@
+{
+    "name": "时间与时区",
+    "author": "ljn",
+    "description": "2025四川取证DLC",
+    "blocks": [
+        {
+            "name": "查看时区",
+            "cmd": "timedatectl",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "列出所有时区",
+            "cmd": "timedatectl list-timezones",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "（兼容）读取时区文件",
+            "cmd": "cat /etc/timezone",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "查看当前时间",
+            "cmd": "date",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        }
+    ]
+}
