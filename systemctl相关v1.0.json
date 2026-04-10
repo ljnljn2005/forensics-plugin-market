@@ -1,0 +1,28 @@
+{
+    "name": "systemctl相关v1.0",
+    "author": "ljn",
+    "description": "四川取证DLC",
+    "blocks": [
+        {
+            "name": "查看ssh服务情况",
+            "cmd": "systemctl status sshd",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "查看防火墙firewalld服务情况",
+            "cmd": "systemctl status firewalld",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "关闭防火墙",
+            "cmd": "systemctl stop firewalld",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        }
+    ]
+}
