@@ -1,0 +1,28 @@
+{
+    "name": "Linux用户有关v1.0",
+    "author": "ljn",
+    "description": "四川取证DLC",
+    "blocks": [
+        {
+            "name": "root的登录记录",
+            "cmd": "last root",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "查看当前登录 + 历史登录痕迹",
+            "cmd": "w",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "历史命令",
+            "cmd": "history",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        }
+    ]
+}
