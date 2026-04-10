@@ -1,0 +1,28 @@
+{
+    "name": "Linux文件系统相关v1.0",
+    "author": "ljn",
+    "description": "2025四川取证DLC",
+    "blocks": [
+        {
+            "name": "查看已挂载分区的文件系统",
+            "cmd": "df -T",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "列出所有块设备及分区的文件系统",
+            "cmd": "lsblk -f",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        },
+        {
+            "name": "挂载信息",
+            "cmd": "mount",
+            "type": "SSH命令",
+            "module": "linux",
+            "category": ""
+        }
+    ]
+}
