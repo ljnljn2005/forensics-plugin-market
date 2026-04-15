@@ -1,0 +1,14 @@
+{
+    "name": "手机截图",
+    "author": "ljn",
+    "description": "2025FIC DLC",
+    "blocks": [
+        {
+            "name": "手机截图提取",
+            "cmd": "/system_ce/0/snapshots",
+            "type": "文件提取",
+            "module": "android",
+            "category": ""
+        }
+    ]
+}
